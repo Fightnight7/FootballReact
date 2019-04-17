@@ -1,0 +1,30 @@
+.header {
+    background-color: #3f3f3f;
+    grid-area: header;
+    display: grid;
+    grid-template-columns: 1fr 5fr 4fr;
+}
+
+.img {
+    height: 90px;
+    display: block;
+    padding: 5px 20px 5px 20px;
+}
+
+.title {
+    color: #b7b7b7;
+    font-size: 30px;
+    align-self: center;
+}
+
+.teamLogos {
+    display: grid;
+    padding: 5px;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 45px 45px;
+}
+
+.logo {
+    width: 40px;
+    margin: 0 auto;
+}

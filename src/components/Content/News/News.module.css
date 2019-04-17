@@ -1,0 +1,38 @@
+.commentsBlock {
+    width: 100%;
+    height: 1000px;
+    background-color: aquamarine;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.name {
+    padding: 10px;
+}
+
+.textarea {
+    margin-left: 10px;
+}
+
+.button {
+    display: block;
+    margin-left: 10px;
+}
+
+.addComment {
+    border: 1px dotted silver;
+    height: 150px;
+}
+
+.allComments {
+    padding: 10px;
+}
+
+.commentUser {
+    color: grey;
+    font-size: 14px;
+}
+
+.commentText {
+    font-weight: bold;
+}

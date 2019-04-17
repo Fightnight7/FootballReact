@@ -1,0 +1,17 @@
+.main {
+    display: grid;
+    grid-template-areas: 
+        "header header header"
+        "sidebarLeft content sidebarRight"
+        "footer footer footer";
+    grid-gap: 10px;
+    width: 100%;
+    height: 2000px;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 100px 5fr 100px;
+}
+
+
+
+
+

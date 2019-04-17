@@ -1,0 +1,45 @@
+.container {
+    width: 100%;
+    background-color: green;
+}
+
+.header {
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+}
+
+.header a {
+    text-decoration: none;
+    color: #000;
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+
+.table {
+    margin: 0 auto;
+    color: #f5f5f0;
+}
+
+.table td {
+    text-align: center;
+}
+
+.team {
+    text-align: left !important;
+    padding-left: 5%;
+    color: #f5f5f0;
+}
+
+.team:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.team a {
+    text-decoration: none;
+    color: #f5f5f0;
+}
+
